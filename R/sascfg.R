@@ -17,14 +17,14 @@
 #' @export
 #' @details
 #' `host` and `saspath` are required to connect to remote SAS server. Other arguments can follow default.
-#' If transferring datasets is needed, then tunnelling is required.
+#' If transferring datasets is needed and the client(running sasr) is not reachable from the server,
+#' then tunnelling is required.
 #' Use `tunnel = `, `rtunnel = ` to specify tunnels and reverse tunnels.
 #' The values should be length 1 integer.
 sascfg <- function(name = "default", host, saspath, ssh = system("which ssh", intern = TRUE),
                    encoding = "latin1", options = list("-fullstimer"), ..., sascfg = "sascfg_personal.py") {
   lst <- list(host = host, saspath = saspath, ssh = ssh, encoding = encoding, options = options)
   lst <- c(lst, list(...))
-  check_list(lst, types = c("character", "integer"), names = "named")
   f <- file(sascfg, "w")
   writeLines(sprintf("SAS_config_names=['%s']", name), con = f)
   writeLines(sprintf("%s=%s", name, toString(r_to_py(lst))), f)

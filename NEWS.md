@@ -1,3 +1,8 @@
+# sasr 0.1.3
+
+* Add a basic SAS engine for knitr.
+* Update `sas_session` to allow finer control over the sas session.
+
 # sasr 0.1.2
 
 * First CRAN version of the package.
