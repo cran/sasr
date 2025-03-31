@@ -1,6 +1,6 @@
-c190b0622590ab2c969d846060b53901 *DESCRIPTION
+4633e9151ca36e880e8ea1f30d03fffa *DESCRIPTION
 126d5d03ca241ddfd038fd3e90313bc7 *NAMESPACE
-3173fbba9f1eee034b9823f469870e2d *NEWS.md
+4e7287f18a349b8364e9cef1214bc4fe *NEWS.md
 d5428363b567767cf2e589c645814ab0 *R/run_sas.R
 d6bf27e78ad31e636074f3b2452f96d5 *R/sas_engine.R
 a7c7e9ce4f3bdbc6455a86284796745a *R/sascfg.R
@@ -25,7 +25,7 @@ f09e23eb1b29e7f716e12a6214e97a8a *man/sas_engine.Rd
 f917345a7a2010ae779651d48c588ca0 *man/sas_session_ssh.Rd
 d51748197869a9598fa4d019205792d0 *man/sascfg.Rd
 494ba5419e3d4f4e0d4a8d1657da567d *man/saspy.Rd
-c1f7dc9be0aedf069a783561c987e31c *man/sasr-package.Rd
+da020bd32e4682e348fb42394e59dab8 *man/sasr-package.Rd
 17f534d64abf65b1b3f14f12bacaca75 *man/sd2df.Rd
 56d67e298155f96e31b46cb6a6794971 *man/validate_data.Rd
 cce10cf1cbd64fcb4c12c3c02ddee183 *man/validate_sascfg.Rd
@@ -33,7 +33,7 @@ cce10cf1cbd64fcb4c12c3c02ddee183 *man/validate_sascfg.Rd
 22802397fd08e1f48883b44c299c3eb3 *tests/testthat/_snaps/rmarkdown.md
 c8f58a18fb5991a47eff58162dcc7f76 *tests/testthat/_snaps/run_sas.md
 213449fad628112cebcfffe8731f0b26 *tests/testthat/helper-dummy_session.R
-88794465450afad3f57c3eb664bb0b3e *tests/testthat/test-rmarkdown.R
+75612b4c646ae26fe92767ce456a2a08 *tests/testthat/test-rmarkdown.R
 54a73cea5b01ca7b020e06b1a8ede6f8 *tests/testthat/test-run_sas.R
 8ba02f7363ea34de91099ee643eecd92 *tests/testthat/test-sascfg.R
 8ef1d7aca763a21dd51cce7489ccd34e *tests/testthat/test-session.R

@@ -1,13 +1,14 @@
 Type: Package
 Package: sasr
 Title: 'SAS' Interface
-Version: 0.1.4
-Date: 2025-02-26
+Version: 0.1.5
+Date: 2025-03-30
 Authors@R: c(
-    person("Liming", "Li", , "clark.liming@gmail.com", role = c("aut", "cre")),
+    person("Liming", "Li", , "liming.li1@astrazeneca.com", role = c("aut", "cre")),
     person("Daniel", "Sabanes Bove", , "daniel.sabanesbove@gmail.com", role = "aut"),
     person("Isaac", "Gravestock", , "isaac.gravestock@roche.com", role = "aut"),
-    person("F. Hoffmann-La Roche AG", role = c("cph", "fnd"))
+    person("F. Hoffmann-La Roche AG", role = c("cph", "fnd")),
+    person("AstraZeneca plc", role = c("cph", "fnd"))
   )
 Description: Provides a 'SAS' interface, through
     'SASPy'(<https://sassoftware.github.io/saspy/>) and
@@ -32,11 +33,12 @@ Encoding: UTF-8
 Language: en-US
 RoxygenNote: 7.3.2
 NeedsCompilation: no
-Packaged: 2025-02-26 03:11:04 UTC; root
+Packaged: 2025-03-31 05:04:02 UTC; root
 Author: Liming Li [aut, cre],
   Daniel Sabanes Bove [aut],
   Isaac Gravestock [aut],
-  F. Hoffmann-La Roche AG [cph, fnd]
-Maintainer: Liming Li <clark.liming@gmail.com>
+  F. Hoffmann-La Roche AG [cph, fnd],
+  AstraZeneca plc [cph, fnd]
+Maintainer: Liming Li <liming.li1@astrazeneca.com>
 Repository: CRAN
-Date/Publication: 2025-02-27 00:50:02 UTC
+Date/Publication: 2025-03-31 18:50:02 UTC
